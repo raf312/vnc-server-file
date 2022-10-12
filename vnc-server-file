@@ -19,5 +19,6 @@ gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --
 
 cd .vnc
 chmod +x xstartup
+cd
 
 sudo service dbus start
