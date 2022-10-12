@@ -3,6 +3,9 @@ cd /bin
 echo "vncserver -geometry 1555x600" > vncs
 chmod a+x vncs
 
+cd
+mkdir .vnc
+
 echo '#!/bin/sh
 autocutsel -fork
 xrdb $HOME/.Xresources
