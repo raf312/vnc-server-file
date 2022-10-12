@@ -17,4 +17,7 @@ export XDG_MENU_PREFIX="gnome-flashback-"
 unset DBUS_SESSION_BUS_ADDRESS
 gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --debug &' > .vnc/xstartup
 
+cd .vnc
+chmod +x xstartup
+
 sudo service dbus start
